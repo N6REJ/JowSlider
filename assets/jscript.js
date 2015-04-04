@@ -2,7 +2,7 @@
  * @version   $Id:  $Revision
  * @package   mootool
  * @subpackage  lofslidernews
- * @copyright Copyright (C) JAN 2010 LandOfCoder.com <@emai:landofcoder@gmail.com>. All rights reserved.
+ * @copyright Copyright (C) JAN 2010 LandOfCoder.com <@emai:troy@jowwow.net>. All rights reserved.
  * @website     http://landofcoder.com
  * @license   This plugin is dual-licensed under the GNU General Public License and the MIT License 
  */

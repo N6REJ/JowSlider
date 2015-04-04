@@ -5,7 +5,7 @@
  * @version		$Id: $file.php $Revision
  * @package		modules
  * @subpackage	$Subpackage.
- * @copyright	Copyright (C) November 2010 LandOfCoder.com <@emai:landofcoder@gmail.com>.All rights reserved.
+ * @copyright	Copyright (C) April 2015 JowWow <@emai:troy@jowwow.net>.All rights reserved.
  * @license		GNU General Public License version 2
  */
   jimport('joomla.filesystem.folder');
@@ -14,7 +14,7 @@ defined('_JEXEC') or die;
 // Include the syndicate functions only once
 require_once dirname(__FILE__).DIRECTORY_SEPARATOR.'helper.php';
 
-$list = modLofArticlesSlideShowHelper::getList( $params );
+$list = modJowWowSlideShowHelper::getList( $params );
 
 $tmp            = $params->get( 'module_height', 'auto' );
 $moduleHeight   = ( $tmp=='auto' ) ? 'auto' : (int)$tmp.'px';
@@ -38,7 +38,7 @@ $navEnableCate          = $params->get( 'enable_navcate', 1 );
 $customSliderClass = $params->get('custom_slider_class','');
 $customSliderClass = is_array($customSliderClass)?$customSliderClass:array($customSliderClass);
 
-modLofArticlesSlideShowHelper::loadMediaFiles( $params, $module );
+modJowWowSlideShowHelper::loadMediaFiles( $params, $module );
 require( JModuleHelper::getLayoutPath($module->module) );
 
 ?>

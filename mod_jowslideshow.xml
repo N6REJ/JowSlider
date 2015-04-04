@@ -4,13 +4,13 @@
 	version="3.0"
 	client="site"
 	method="upgrade">
-  <name>Lof ArticlesSlideShow Module</name>
-  <creationDate>Jan 2012</creationDate>
-  <author>LandOfCoder</author>
+  <name>JowSlideshow Module</name>
+  <creationDate>April 2015</creationDate>
+  <author>JowWow</author>
   <copyright>GNU / GPL2 http://www.gnu.org/licenses/gpl-2.0.html</copyright>
-  <authorEmail>landofcoder@gmail.com</authorEmail>
-  <authorUrl>http://www.landofcoder.com</authorUrl>
-  <version>3.0</version>
+  <authorEmail>troy@jowwow.,net</authorEmail>
+  <authorUrl>http://www.jowwow.net</authorUrl>
+  <version>1.0</version>
   <description>
     <![CDATA[<div style="font-size:11px;">
       <i>
@@ -21,23 +21,22 @@
       of each slider and easy to fit your website with one of themes, 
       skins.
       </i>
-      <p><img src="../modules/mod_lofarticlesslideshow/assets/lof-articleslideshow.png" style="width:100%"><h4>Module Information:</h4><ul><li><a href='http://landofcoder.com/joomla/f33/lof-articlesslideshow-module' target='_blank'>+ Detail</a></li>
-      <li><a href='http://landofcoder.com/forum/supports.html' target='_blank'>+ Forum Support</a></li><li><a href="http://landofcoder.com/submit-request.html" target='_blank'>+ Email Request</a></li>
-      </ul></p><br><div>@Copyright: <a href='http://landofcoder.com' target='_blank'>LandOfCoder.com</a></div>]]>
+      <p><img src="http://jowwow.net/images/logos/logo_v6.png" style="width:100%"><h4>Module Information:</h4><ul><li><a href='http://landofcoder.com/joomla/f33/lof-articlesslideshow-module' target='_blank'>+ Detail</a></li>
+      <li><a href='http://jowwow.net' target='_blank'>+ <br><div>@Copyright: <a href='http://jowwow.net' target='_blank'>jowwow.net</a></div>]]>
   </description>
   <files>
-    <filename module="mod_lofarticlesslideshow">mod_lofarticlesslideshow.php</filename>
-    <filename module="mod_lofarticlesslideshow">helper.php</filename>
-    <filename module="mod_lofarticlesslideshow">index.html</filename>
-    <folder module="mod_lofarticlesslideshow">libs</folder>
-    <folder module="mod_lofarticlesslideshow">assets</folder>
-    <folder module="mod_lofarticlesslideshow">tmpl</folder>
+    <filename module="mod_jowwowslideshow">mod_jowwowslideshow.php</filename>
+    <filename module="mod_jowwowslideshow">helper.php</filename>
+    <filename module="mod_jowwowslideshow">index.html</filename>
+    <folder module="mod_jowwowslideshow">libs</folder>
+    <folder module="mod_jowwowslideshow">assets</folder>
+    <folder module="mod_jowwowslideshow">tmpl</folder>
   </files>
   <languages>
-    <language tag="en-GB">languages/en-GB.mod_lofarticlesslideshow.ini</language>
+    <language tag="en-GB">languages/en-GB.mod_jowwowslideshow.ini</language>
   </languages>
   <config>
-    <fields name="params" addfieldpath="modules/mod_lofarticlesslideshow/libs/elements">
+    <fields name="params" addfieldpath="modules/mod_jowwowslideshow/libs/elements">
       <fieldset>
         <field  type="loftoolbar" name="loftoolbar">
           <option>Global</option>
@@ -51,7 +50,7 @@
       <fieldset name="GLOBALSETTING">
         <field type="lofspacer" />
         <field name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX" description="MODULE_CLASS_SUFFIX_DESC" />
-        <field name="theme" type="folderlist" hide_none="true" default="" label="SELECT_THEME" directory="modules/mod_lofarticlesslideshow/assets/images/" filter="" exclude="" stripext="" />
+        <field name="theme" type="folderlist" hide_none="true" default="" label="SELECT_THEME" directory="modules/mod_jowwowslideshow/assets/images/" filter="" exclude="" stripext="" />
         <field name="enable_css3" type="radio" class="btn-group" default="1" label="ENABLE_CSS3" description="ENABLE_CSS3_DESC">
 		  <option value="1">JYES</option>
           <option value="0">JNO</option>
@@ -69,8 +68,8 @@
           name="preload" 
           type="radio" class="btn-group" 
           default="1"
-          label="MOD_LOFSS_FIELD_PRELOAD_LABEL"
-          description="MOD_LOFSS_FIELD_PRELOAD_DESC">
+          label="MOD_JOWSS_FIELD_PRELOAD_LABEL"
+          description="MOD_JOWSS_FIELD_PRELOAD_DESC">
 		  <option value="1">JYES</option> 	
 		  <option value="0">JNO</option>
         </field>

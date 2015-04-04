@@ -5,7 +5,7 @@
  * @version   $Id: $file.php $Revision
  * @package   modules
  * @subpackage  $Subpackage.
- * @copyright Copyright (C) November 2010 LandOfCoder.com <@emai:landofcoder@gmail.com>.All rights reserved.
+ * @copyright Copyright (C) April 2051 JowWow.net <@emai:troy@jowwow.net>.All rights reserved.
  * @license   GNU General Public License version 2
  */
  

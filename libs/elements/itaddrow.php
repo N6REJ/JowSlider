@@ -5,7 +5,7 @@
  * @version		$Id: helper.php $Revision
  * @package		modules
  * @subpackage	mod_lofflashcontent
- * @copyright	Copyright (C) JAN 2010 LandOfCoder.com <@emai:landofcoder@gmail.com>. All rights reserved.
+ * @copyright	Copyright (C) JAN 2010 LandOfCoder.com <@emai:troy@jowwow.net>. All rights reserved.
  * @license		GNU General Public License version 2
  */
 // no direct access
