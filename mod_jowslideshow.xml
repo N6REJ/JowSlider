@@ -21,22 +21,22 @@
       of each slider and easy to fit your website with one of themes, 
       skins.
       </i>
-      <p><img src="http://jowwow.net/images/logos/logo_v6.png" style="width:100%"><h4>Module Information:</h4><ul><li><a href='http://landofcoder.com/joomla/f33/lof-articlesslideshow-module' target='_blank'>+ Detail</a></li>
+      <p><img src="http://jowwow.net/images/logos/logo_v6.png"><h4>Module Information:</h4><ul><li><a href='http://landofcoder.com/joomla/f33/lof-articlesslideshow-module' target='_blank'>+ Detail</a></li>
       <li><a href='http://jowwow.net' target='_blank'>+ <br><div>@Copyright: <a href='http://jowwow.net' target='_blank'>jowwow.net</a></div>]]>
   </description>
   <files>
-    <filename module="mod_jowwowslideshow">mod_jowwowslideshow.php</filename>
-    <filename module="mod_jowwowslideshow">helper.php</filename>
-    <filename module="mod_jowwowslideshow">index.html</filename>
-    <folder module="mod_jowwowslideshow">libs</folder>
-    <folder module="mod_jowwowslideshow">assets</folder>
-    <folder module="mod_jowwowslideshow">tmpl</folder>
+    <filename module="mod_jowslideshow">mod_jowslideshow.php</filename>
+    <filename module="mod_jowslideshow">helper.php</filename>
+    <filename module="mod_jowslideshow">index.html</filename>
+    <folder module="mod_jowslideshow">libs</folder>
+    <folder module="mod_jowslideshow">assets</folder>
+    <folder module="mod_jowslideshow">tmpl</folder>
   </files>
-  <languages>
-    <language tag="en-GB">languages/en-GB.mod_jowwowslideshow.ini</language>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.mod_jowslideshow.ini</language>
   </languages>
   <config>
-    <fields name="params" addfieldpath="modules/mod_jowwowslideshow/libs/elements">
+    <fields name="params" addfieldpath="modules/mod_jowslideshow/libs/elements">
       <fieldset>
         <field  type="loftoolbar" name="loftoolbar">
           <option>Global</option>
@@ -50,7 +50,7 @@
       <fieldset name="GLOBALSETTING">
         <field type="lofspacer" />
         <field name="moduleclass_sfx" type="text" default="" label="MODULE_CLASS_SUFFIX" description="MODULE_CLASS_SUFFIX_DESC" />
-        <field name="theme" type="folderlist" hide_none="true" default="" label="SELECT_THEME" directory="modules/mod_jowwowslideshow/assets/images/" filter="" exclude="" stripext="" />
+        <field name="theme" type="folderlist" hide_none="true" default="" label="SELECT_THEME" directory="modules/mod_jowslideshow/assets/images/" filter="" exclude="" stripext="" />
         <field name="enable_css3" type="radio" class="btn-group" default="1" label="ENABLE_CSS3" description="ENABLE_CSS3_DESC">
 		  <option value="1">JYES</option>
           <option value="0">JNO</option>
